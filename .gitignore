@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+
+# React
+node_modules/
+dist/
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded datasets
+backend/data/datasets/
+backend/data/uploads/
+
+# Generated ML models
+backend/ml/models/
+
+# Backup files
+backend/backup_before_ml_fix/
+backend/database/backups/
+
+# Inspection files
+backend_file_list.txt
+inspection_ml.txt
+inspection_model_flow.txt
